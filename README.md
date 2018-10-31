@@ -22,17 +22,7 @@ Demonstrates implementation of the following `Person` class methods:
 
 ## Software requirements
 
-- Rails 5.0.0 or higher
-
 - Ruby 2.3.1 or higher
-
-- PostgreSQL 9.5.x or higher
-
-## Navigate to the Rails application
-
-```
-$ cd /path/to/rails/application
-```
 
 ## Support
 

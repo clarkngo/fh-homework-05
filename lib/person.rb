@@ -8,12 +8,10 @@ attr_accessor :name
   end
 
   def to_s
-    String(@name)
-    # or just return name ?
-    # name
+    @name
   end
 
   def titlelize
-    to_s.gsub(/\b\w/, &:capitalize)
+    @name.gsub(/\b\w/, &:capitalize)
   end
 end
