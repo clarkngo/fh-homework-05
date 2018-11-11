@@ -65,7 +65,7 @@ describe Person do
     person = Person.new('giovanni')
 
     person.titlelize.upcase.reverse.downcase.undo.undo.undo.undo
-
+    
     expect(person.to_s).to eq('giovanni')
     expect(person.name).to eq('giovanni')
   end
